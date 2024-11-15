@@ -4,9 +4,12 @@ Demonstrates how to create arbitrary abstract types, and whose implementation mi
 
 ## Pros
 
-- Dynamically switch selected implementation of a type without modifying source code using it.
-- No need to reference implementation dependencies in code using type => avoid unnecessary requirements.
-- Implementations of a type may be provided by package defining the type, third-party packages, or directly in application using it (if it is packaged).
+- **Dynamically select an implementation** of a type without modifying source code using it.
+- No need to reference implementation dependencies in code using type (**avoid unnecessary requirements**).
+- Implementations of a type may be provided by
+  - package defining the type
+  - third-party packages
+  - or directly in application using it
 
 ## Cons
 
