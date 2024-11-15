@@ -1,8 +1,8 @@
-## Description
+## 📚 Description
 
 Demonstrates how to create arbitrary abstract types, and whose implementation might be loaded from defined entry points without direct dependencies.
 
-## Pros
+## 🎯 Pros
 
 - **Dynamically select an implementation** of a type without modifying source code using it.
 - No need to reference implementation dependencies in code using type (**avoid unnecessary requirements**).
@@ -11,6 +11,6 @@ Demonstrates how to create arbitrary abstract types, and whose implementation mi
   - third-party packages
   - or directly in application using it
 
-## Cons
+## 🚫 Cons
 
 - Implementations may only be provided through entry points, meaning that they must belong to a package.
