@@ -6,6 +6,7 @@ This repository versions python code snippets that might be reused to improve ap
 
 - [Dynamic driver selection](./dynamic_driver_selection/README.md): Provide a way to load subclass using a method from parent class (driver type).
 - [Extensible request context](./extensible_request_context/README.md) Demonstrates how a class may provide both extensibility, strict typing with minimal boilerplate.
+- [Strict modular configuration](./strict_modular_configuration/README.md) Demonstrates how app configuration can be handled efficiently in a modular framework.
 
 ## Brainstorming
 
