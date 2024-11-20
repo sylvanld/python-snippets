@@ -11,7 +11,7 @@ logger = logging.getLogger("toto.log")
 logger.setLevel(logging.INFO)
 
 handler = logging.StreamHandler()
-handler.setFormatter(DebugFormatter())
+handler.setFormatter(GELFFormatter())
 handler.setLevel(logging.DEBUG)
 
 logger.addHandler(handler)
