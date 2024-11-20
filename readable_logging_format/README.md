@@ -2,8 +2,8 @@
 
 Following snippet defines custom log record formatters:
 
-- **DebugFormatter** whose provide colored output and readable format for debugging
-- **GELFFormatter** who output logs in GELF format more suitable for parsing and export in production environments
+- **DebugFormatter** provides human readable format with optional colored output and aims to be used for debugging.
+- **GELFFormatter** print records in GELF format, that is more suitable for parsing and can easily be exported to log management systems.
 
 ## Examples
 
